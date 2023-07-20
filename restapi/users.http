@@ -7,3 +7,12 @@ Content-Type: application/json
   "username": "orzu2",
   "password": "1234"
 }
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "username": "orzu",
+  "password": "1234"
+}

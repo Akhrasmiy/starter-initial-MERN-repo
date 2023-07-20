@@ -8,6 +8,12 @@ exports.postUserSChema = {
     password: Joi.string().required(),
   }),
 };
+exports.loginUserSchema={
+  body: Joi.object({
+    username: Joi.string().required(),
+    password: Joi.string().required(),
+  }),
+}
 
 exports.showUserSchema = {
   params: Joi.object({
