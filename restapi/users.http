@@ -1,0 +1,9 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "first_name": "Orzu",
+  "last_name": "Mirzayev",
+  "username": "orzu2",
+  "password": "1234"
+}
